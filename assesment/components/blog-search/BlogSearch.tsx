@@ -2,7 +2,7 @@ import Button from "../ui/Button"
 
 const BlogSearch = () => {
   return (
-    <div className="w-[50%] flex justify-between mt-2">
+    <div className="flex justify-around mt-2">
       <h1 className="text-[32px]">Blogs</h1>
 
       <div className="flex gap-2">
