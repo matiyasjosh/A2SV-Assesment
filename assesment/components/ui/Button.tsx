@@ -1,5 +1,5 @@
 const Button: React.FC<{ text: string; round: string }> = ({ text, round }) => {
-    return <button className={`w-[100px] h-[39px] text-white font-bold bg-[#264FAD] ${round}`}>{text}</button>;
+    return <button className={`text-white font-bold bg-[#264FAD] py-2 px-7 ${round}`}>{text}</button>;
   };
   
   export default Button;

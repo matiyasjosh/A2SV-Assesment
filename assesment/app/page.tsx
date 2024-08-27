@@ -1,10 +1,9 @@
-import NavBar from '@/components/Nav-bar-component/NavBar'
+import BlogSearch from '@/components/blog-search/BlogSearch'
 import React from 'react'
 
 const Page = () => {
   return (
     <div>
-      <NavBar />
     </div>
   )
 }
