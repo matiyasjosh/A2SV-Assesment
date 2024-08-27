@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import BlogListTitle from "./BlogListTitle";
 import { BlogPostListProps } from "@/Types";
+import { formatDate } from "@/utilities/dateConvertor";
 
 const SingleBlogList: React.FC<BlogPostListProps> = ({
   name,
@@ -14,12 +15,12 @@ const SingleBlogList: React.FC<BlogPostListProps> = ({
   senderImage
 }) => {
   return (
-    <div className="flex">
+    <div className="flex gap-10 mb-5">
       {/* Content Column */}
       <div className="flex-1 pr-6">
-        <BlogListTitle name={name} postedDate={postedDate} career={career} senderImage={senderImage}/>
+        <BlogListTitle name={name} postedDate={formatDate(postedDate)} career={career} senderImage={senderImage}/>
         <h1 className="text-[34px] font-bold my-5">{title}</h1>
-        <p className="text-[24px] text-[#737373] pb-7">{description}</p>
+        <p className="text-[18px] text-[#737373] pb-7">{description}</p>
 
         <div>
           {tags.map((tag, index) => (
@@ -34,7 +35,7 @@ const SingleBlogList: React.FC<BlogPostListProps> = ({
       </div>
 
       {/* Image Column */}
-      <div className="flex-shrink-0">
+      <div className="mt-10">
         <Image
           src={image}
           alt="jal"

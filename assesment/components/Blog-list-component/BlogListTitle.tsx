@@ -12,7 +12,7 @@ const BlogListTitle:React.FC<BlogSenderTitle> = ({ name, postedDate, career, sen
         width={79}
         height={79}
         alt="sender-image"
-        className="w-[69px] h-[69px] rounded-full mr-4   "
+        className="w-[69px] h-[69px] rounded-full mr-4"
       />
 
       <div className="flex flex-col">
