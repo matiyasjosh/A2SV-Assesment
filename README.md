@@ -11,3 +11,5 @@ Features
     - Read and Explore: Discover a wide range of blog posts from various authors.
     - Comment and Interact: Engage with the content by leaving comments and feedback.
     - Responsive Design: Enjoy a seamless experience on both desktop and mobile devices.
+
+here is the blogs page - ![git1](https://github.com/user-attachments/assets/5f99de5a-5ecd-49a3-8976-6d7836867388)
